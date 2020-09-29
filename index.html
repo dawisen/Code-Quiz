@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- highscore -->
+    <div class="float-left font-weight-bold" id="highscore"><a href="#">View Highscores</a></div>
+    <!-- timer -->
+    <div class="float-right font-weight-bold" id="timer"> Timer: 0  </div>
+    <br />
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center" id="main">
+          <div class="default"><!-- heading -->
+          <h1>Coding Quiz</h1>
+          <br />
+          <p>
+            Challenge yourself and try to answer all the questions correctly
+            within the time limit! Wrong answers decrease the timer by ten
+            seconds. Good luck!
+          </p>
+          <button type="button" class="btn btn-primary btn-lg" id="startbtn">
+            Start Quiz
+          </button>
+          </div>
+          <div class="question"></div>
+          <ul class="choiceList"></ul>
+          <div class="quizMessage"></div>
+          <div class="result"></div>
+        </div>
+      </div>
+    </div>
+    <!-- JS and JQuery links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
+  </body>
+</html>
