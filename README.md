@@ -4,7 +4,7 @@
 
             Criteria for the homework
 
-When you click the start button, a timer starts and I am presented with a question
+When you click the start button, a timer starts and you are presented with a question
 When you answer a question you are presented with another question
 When you answer a question incorrectly, the time is subtracted from the clock
 When all questions are answered or the timer reaches 0, the game is over
